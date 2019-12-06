@@ -1,0 +1,37 @@
+## this is the code for the mapping of 5000 years of city growth 
+**R code**
+#did not use gganimation
+#
+
+https://spatial.ly/2017/03/mapping-5000-years-of-city-growth/
+
+#Load the libraries we need
+
+```{r}
+library("ggplot2")
+library("ggthemes")
+library("rworldmap")
+library("classInt")
+library("gridExtra")
+library("grid")
+library("cowplot")
+```
+**load data**
+
+#City data
+```{r}
+cities<- read.csv("alldata.csv")
+
+#for some reason the coords were loaded as factors so I've created two new numeric fields here
+cities$X<-as.numeric(as.vector(cities$Longitude))
+cities$Y<-as.numeric(as.vector(cities$Latitude))
+
+#World map base from rworldmap
+world <- fortify(getMap(resolution="low"))
+```
+
+##
+```{}
+
+
+```

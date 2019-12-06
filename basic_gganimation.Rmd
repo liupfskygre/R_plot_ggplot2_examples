@@ -1,0 +1,21 @@
+##
+
+#https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/
+
+#https://www.r-graph-gallery.com/271-ggplot2-animated-gif-chart-with-gganimate.html
+
+
+```{r}
+
+
+```
+
+#design my plot
+
+x taxonomy
+y depth
+facet sites
+transition month, show the size 
+
+Then mapping data on map or figures
+
